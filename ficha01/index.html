@@ -4,62 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
     <title>Document</title>
 </head>
 
-<body>
-    <h1>Design Hipermédia</h1>
-    <a href="google.com">Float</a>
-    <a href="google.com">Flexbox</a>
-    <a href="google.com">Grid</a>
-    <h2>HTML - HyperText Markup Language</h2>
-    <img width="70px" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" />
-    <div>por <strong>Marco Olim</strong>, 10 de outubro 2021</div>
-    <img width="400px" src="https://www.udacity.com/blog/wp-content/uploads/2020/06/HTML_Blog-scaled.jpeg" />
-    <p>Os documentos em HTML são arquivos de texto simples que podem ser criados e editados em qualquer editor de textos
-        comum.</p>
-    <p>Juntament com o CSS e o Javascript, o HTML é a base de todos os websites e aplicações web.</p>
-    <h3> O que é o HTML?</h3>
-    <p>HTML abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de
-        Hipertexto" é uma linguagem de marcação utilizada na construção de páginas na Web. </p>
+<body class="body">
+    <div class="container">
+        <div class="header">
+            <h1>Design Hipermédia</h1>
+            <div class="menu">
+                <a href="google.com">Float</a>
+                <a href="google.com">Flexbox</a>
+                <a href="google.com">Grid</a>
+            </div>
+        </div> 
+        <div class="informacao"> 
+            <div class="texto"> 
+                <span class="top">TOP</span>
+                <h2>HTML - HyperText Markup Language</h2>
+                <img width="70px" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" />
+                <div>por <strong>Marco Olim</strong>, 10 de outubro 2021</div>
+                <img width="400px" src="https://www.udacity.com/blog/wp-content/uploads/2020/06/HTML_Blog-scaled.jpeg" />
+                <p>Os documentos em HTML são arquivos de texto simples que podem ser criados e editados em qualquer editor de textos
+                    comum.</p>
+                <p>Juntament com o CSS e o Javascript, o HTML é a base de todos os websites e aplicações web.</p>
+                <h3> O que é o HTML?</h3>
+                <p>HTML abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de
+                    Hipertexto" é uma linguagem de marcação utilizada na construção de páginas na Web. </p>
 
-    <p>Exemplo de um elemento <a href="https://www.uma.pt/">Website da UMa</a></p>
-    <ol>
-        <li> &lt; a &gt; é o marcador de abertura</li>
-        <li> &lt; /a &gt; é o marcador de fecho</li>
-        <li> href é o atributo onde é definido a url, que será acedida ao clicar no link.</li>
-    </ol>
-    <p>Mais informação em <a href="google.com"> Web Docs.</a></p>
-    <h3>É possível combinar tags de HTML?</h3>
-    Outro exemplo de elemento composto
-    <p> <a href="http://pt.wikipedia.org" target="_self">Wikipédia</a></p>
-    <ul>
-        <li> = marcador que define um parágrafo.</li>
-        <li>a = marcador que define uma hiperligação.</li>
-        <li>href = atributo que define a url da hiperligação.</li>
-        <li>target = atributo que define a forma como a hiperligação será aberta.</li>
-        <li>_self = valor do atributo Target que define que a hiperligação será aberta na mesma guia.</li>
-        <li>/ = define o fech0 do elemento</li>
-    </ul>
+                <p>Exemplo de um elemento <a href="https://www.uma.pt/">Website da UMa</a></p>
+                <ol>
+                    <li> &lt; a &gt; é o marcador de abertura</li>
+                    <li> &lt; /a &gt; é o marcador de fecho</li>
+                    <li> href é o atributo onde é definido a url, que será acedida ao clicar no link.</li>
+                </ol>
+                <p>Mais informação em <a href="google.com"> Web Docs.</a></p>
+                <h3>É possível combinar tags de HTML?</h3>
+                Outro exemplo de elemento composto
+                <p> <a href="http://pt.wikipedia.org" target="_self">Wikipédia</a></p>
+                <ul>
+                    <li> = marcador que define um parágrafo.</li>
+                    <li>a = marcador que define uma hiperligação.</li>
+                    <li>href = atributo que define a url da hiperligação.</li>
+                    <li>target = atributo que define a forma como a hiperligação será aberta.</li>
+                    <li>_self = valor do atributo Target que define que a hiperligação será aberta na mesma guia.</li>
+                    <li>/ = define o fech0 do elemento</li>
+                </ul>
 
-    <p>Isso é necessário porque os marcadores servem para definir a formatação de uma porção do documento, e assim
-        marcamos onde começa e termina o conteúdo que receberá a formatação ou marcação necessária, específica. Alguns
-        elementos são chamados “vazios”, pois não marcam uma região de texto, apenas inserem algum elemento no
-        documento.
-    </p>
-    <h2>Posts Relacionados</h2>
-    <ul>
-        <li>
-            <img width="70px" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" />
-            <a href="google.com">Desenvolvimente Web:Front-end</a>
-            <p> Publicado por <strong>Marco Olim</strong></p>
-        </li>
-        <li>
-            <img width="70px" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" />
-            <a href="google.com">Design Hipermedia</a>
-            <p> Publicado por <strong>Marco Olim</strong></p>
-        </li>
-    </ul>
+                <p>Isso é necessário porque os marcadores servem para definir a formatação de uma porção do documento, e assim
+                    marcamos onde começa e termina o conteúdo que receberá a formatação ou marcação necessária, específica. Alguns
+                    elementos são chamados “vazios”, pois não marcam uma região de texto, apenas inserem algum elemento no
+                    documento.
+                </p>
+            </div>
+            <div class="related">
+
+                <div>
+                    <h2 class="related-title">Post Relacionados</h2>
+                    <ul class="lista-sem-marcador">
+                        <li>
+                            <img width="50px" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" />
+                            <a href="https://google.com">google</a>
+                            <p>Publicado por <strong>Marco Olim</strong></p>
+
+                        </li>
+                        <li>
+                            <img width="50px" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" />
+                            <a href="https://google.com">design</a>
+                            <p>Publicado por <strong>Marco Olim</strong></p>
+
+
+
+                        </li>
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
