@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Ficha 7 TAILWIND CSS</title>
+</head>
+
+<body class="bg-red-600">
+    <div class="container bg-gray-100 max-w-7x1 my-20 mx-auto min-h-[32rem]">
+        <header class="h-20 bg-white border-b-2 border-gray-200 flex justify-center my-3 mx-3 mt-3">
+            <img src="https://www.uma.pt/wp-content/themes/uma/images/logo2_cor.png" alt="" class="h-full mx-auto md:mx-10">
+        </header>
+        <div class="content flex md:flex-row flex-col">
+            <nav class="sidebar bg-gray-700 flex-[0_0_18%]">
+                <ul role="list"
+                    class="side-nav divide-y divide-gray-600 uppercase text-white text-xs tracking-widest flex flex-row md:flex-col">
+                    <li class="side-nav__item w-full">
+                        <a href=""
+                            class="side-nav__link flex items-center md:flex-row flex-col px-4 py-3 hover:bg-red-600 bg-red-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="white" class="w-5 h-5 mr-3">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z" />
+                            </svg>
+                            <span>Quartos</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item w-full">
+                        <a href=""
+                            class="side-nav__link flex items-center md:flex-row flex-col px-4 py-3 hover:bg-red-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="white" class="w-5 h-5 mr-3">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819" />
+                            </svg>
+                            <span>Receção</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item w-full">
+                        <a href=""
+                            class="side-nav__link flex items-center md:flex-row flex-col px-4 py-3 hover:bg-red-600 bg-red-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="white" class="w-5 h-5 mr-3">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016a3.001 3.001 0 003.75.614m-16.5 0a3.004 3.004 0 01-.621-4.72L4.318 3.44A1.5 1.5 0 015.378 3h13.243a1.5 1.5 0 011.06.44l1.19 1.189a3 3 0 01-.621 4.72m-13.5 8.65h3.75a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75H6.75a.75.75 0 00-.75.75v3.75c0 .415.336.75.75.75z" />
+                            </svg>
+                            <span>Bar</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item w-full">
+                        <a href=""
+                            class="side-nav__link flex items-center md:flex-row flex-col px-4 py-3 hover:bg-red-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="white" class="w-5 h-5 mr-3">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
+                            </svg>
+                            <span>Espaços</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <main class="residencia-view bg-white flex-1 h-[45rem]">
+                <div class="gallery flex">
+                    <figure class="gallery__item"><img
+                            src="https://plus.unsplash.com/premium_photo-1678752717095-08cd0bd1d7e7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cXVhcnRvfGVufDB8fDB8fHww"
+                            alt="" class="gallery__photo w-full"></figure>
+                    <figure class="gallery__item"><img
+                            src="https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cXVhcnRvfGVufDB8fDB8fHww"
+                            alt="" class="gallery__photo w-full"></figure>
+                    <figure class="gallery__item"><img
+                            src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cXVhcnRvfGVufDB8fDB8fHww"
+                            alt="" class="gallery__photo w-full"></figure>
+                    <figure class="gallery__item"><img
+                            src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cXVhcnRvfGVufDB8fDB8fHww"
+                            alt="" class="gallery__photo w-full"></figure>
+                    <figure class="gallery__item"><img
+                            src="https://plus.unsplash.com/premium_photo-1686090448517-2f692cc45187?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHF1YXJ0b3xlbnwwfHwwfHx8MA%3D%3D"
+                            alt="" class="gallery__photo w-full"></figure>
+                </div>
+                <div class="overview flex items-center border-b-2 border-gray-200">
+                    <h1 class="overview__heading px-6 py-3 text-lg"> <strong>RESIDÊNCIA SANTANA</strong></h1>
+                    <div class="overview__stars flex justify-content-right">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="red" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="red" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="red" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="red" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="red" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                        </svg>
+                    </div>
+                    <div class="overview__location flex items-center p-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="red" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                        </svg>
+                        <button class="text-red-300 text-xs">Santana</button>
+                    </div>
+                    <div class="overview__rating bg-red-700 p-3 flex flex-col items-center content-center">
+                        <div class="overview__rating-average text-white text-2xl">7.3</div>
+                        <div class="overview__rating-count text-red-900 text-xs">25 Votos</div>
+                    </div>
+                </div>
+
+                <div class="detail flex gap-10 bg-gray-100 md:p-10 md:flex-row flex-col">
+                    <div class="description flex-[0_0_60%] bg-white p-6 shadow-lg">
+                        <p class="text-sm text-gray-500 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Ratione consequuntur in, perspiciatis qui sit nostrum ab temporibus rerum? Praesentium
+                            minima voluptatum hic placeat repellat mollitia exercitationem accusamus consequatur. Omnis,
+                            explicabo?</p>
+                        <p class="text-sm text-gray-500 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Temporibus dolorum, voluptates ipsam maiores nihil velit, possimus fugiat tempore iste natus
+                            maxime! Quos sequi necessitatibus quae ipsam voluptate eos officia laboriosam!</p>
+                        <hr>
+                        <ul class="list-disc md:columns-2 p-4 text-gray-400 text-xs leading-6">
+                            <li>Lorem.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur.</li>
+                            <li>Lorem expetacule</li>
+                            <li>Repudiandae, ipsa</li>
+                        </ul>
+                        <hr>
+                        <div class="recommend pt-4 flex items-center justify-between">
+                            <div class="recommend__count text-xs text-red-600">4 estudantes recomendam esta residência
+                            </div>
+                            <div class="recommend__friends flex">
+                                <img src="https://idposter.com/img/Celebrity/D/Daniel_Kaluuya/id1008025.webp" alt=""
+                                    class="recommend__photo rounded-full border-2 border-white -ml-4 w-10 h-10">
+                                <img src="https://i1.sndcdn.com/artworks-CKmo1lqbFO4NYLsm-yQh3yQ-t500x500.jpg" alt=""
+                                    class="recommend__photo rounded-full border-2 border-white -ml-4 w-10 h-10">
+                                <img src="https://i1.sndcdn.com/artworks-000008918665-yh4ddu-t500x500.jpg" alt=""
+                                    class="recommend__photo rounded-full border-2 border-white -ml-4 w-10 h-10">
+                                <img src="https://i1.sndcdn.com/artworks-000840931588-vbo9he-t500x500.jpg" alt=""
+                                    class="recommend__photo rounded-full border-2 border-white -ml-4 w-10 h-10">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-reviews flex-1 flex flex-col gap-10">
+                        <figure class="review bg-white shadow-lg p-6">
+                            <blockquote class="review__text text-sm text-gray-500 mb-8">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda?
+                            </blockquote>
+                            <figcaption class="review__user flex justify-between items-center">
+                                <img src="data:image/jpeg;base64,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"
+                                    alt="" class="review__photo rounded-full w-10 h-10 mr-2">
+                                <div class="review__user-box">
+                                    <p class="review__user-name text-red-500"><strong>Patrick</strong></p>
+                                    <p class="review__user-country font-style: italic">Australia</p>
+                                </div>
+                                <div class="review__rating ml-auto text-2xl text-red-600">6.1</div>
+                            </figcaption>
+                        </figure>
+                        <figure class="review bg-white shadow-lg p-6">
+                            <blockquote class="review__text text-sm text-gray-500 mb-8">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, ea!
+                            </blockquote>
+                            <figcaption class="review__user flex justify-between items-center">
+                                <img src="https://i.pinimg.com/originals/d8/ba/8a/d8ba8a1b747682d7a91a76fedf7660b0.jpg"
+                                    alt="" class="review__photo rounded-full w-10 h-10 mr-2">
+                                <div class="review__user-box">
+                                    <p class="review__user-name text-red-500"><strong>Jonathan</strong></p>
+                                    <p class="review__user-country font-style: italic">Finland</p>
+                                </div>
+                                <div class="review__rating ml-auto text-2xl text-red-600">8.4</div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </main>
+            <main class="residencia-view bg-white felx.1 h-[45rem]"></main>
+        </div>
+    </div>
+</body>
+
+</html>
