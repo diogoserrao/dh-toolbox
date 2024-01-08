@@ -1,0 +1,135 @@
+html,
+body {
+    height: 100%;
+}
+
+
+
+
+
+
+.corpo{
+    background-image: linear-gradient(to right,#B15CF1, #E9489C);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.estrutura{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.numero{
+    font-size: 180px;
+    color: white;
+    margin:0px; 
+    font-family: system-ui;
+    animation-name: crescer;
+    animation-duration:  3s ;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+.texto1{
+    color: white;
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+.texto2{
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.texto3{
+    color: white;
+    text-align: center;
+
+}
+
+.bolas{
+    position: absolute;
+    border: 50%;
+    
+}
+
+.circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: white; 
+    opacity: 0.1;
+    border-radius: 50%; 
+}
+
+
+#circle1{
+    top: 90px;
+    left: 50px;        
+}
+#circle2{
+    top: 150px;
+    left: 150px;
+    height:500px;
+    width: 500px;
+    animation: moveBall 5s linear infinite;
+}
+#circle3{
+    top:200px;
+    right: 150px;
+    animation: moveBall3 3s linear infinite;
+}
+#circle4{
+    bottom: 150px;
+}
+
+
+
+@keyframes moveBall {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 500px;
+    }
+    100%{
+        left: 0
+    }
+}
+
+@keyframes moveBall3{
+    0%{
+        right:150px;
+        top: 200px;
+    }
+    50%{
+        right:300px;
+        top:300px;
+        height: 500px;
+        width: 500px;
+    }
+    100%{
+        right:150px;
+        top: 200px;
+    }
+
+}
+
+@keyframes crescer{
+    0%{
+       font-size: 180px;
+    }
+    50%{
+        font-size: 380px;
+        color: green;
+    }
+    100%{
+        font-size: 180px;
+        color: blue;
+    }
+
+}

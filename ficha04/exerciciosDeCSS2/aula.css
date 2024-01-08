@@ -1,0 +1,102 @@
+.body {
+    background-color: #24295E;
+    color: white;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.imagemEsquerda {
+    width: 400px;
+}
+
+.cabecalho {
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.imagemDireita {
+    width: 600px;
+}
+
+.divisoriasdadireita {
+
+    color: black;
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.divisoriasdadireita img {
+    display: block;
+}
+
+.data {
+    color: #1D4ED9;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.dia {
+    font-size: 30px;
+}
+
+.palavras h2 {
+    text-transform: uppercase;
+}
+
+.palavras h2,
+.palavras h4 {
+    margin: 0;
+}
+
+.nome {
+    color: #4B5563;
+}
+
+.texto {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.imagem1 {
+    border-radius: 20px;
+}
+
+.imagemabobora {
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.imagemabobora::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/id/1174282589/photo/halloween-jack-o-lantern-bucket-filled-with-candy-isolated-on-white.jpg?s=612x612&w=0&k=20&c=tuvcuOM1xD8Pfj9yLl9mjYqyssOxr_bqjuTZwykE-CE=");
+    height: 100%;
+    background-position: center 108px;
+    background-size: cover;
+    /* Ajuste o dimensionamento da imagem de fundo */
+    transform: scaleX(-1);
+    /* Inverte horizontalmente a imagem de fundo */
+}

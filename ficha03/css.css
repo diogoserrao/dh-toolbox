@@ -1,0 +1,115 @@
+.pai{
+    background-color: lightgrey;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content:right;
+    padding: 20px;
+    margin:20px;
+}
+
+.quadrado{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 10px
+}
+.amarelo{
+    background-color: yellow;
+}
+.vermelho{
+    background-color: red;
+}
+.pai2{
+    justify-content: center;
+}
+
+.pai3{
+    justify-content: space-around;
+}
+
+.pai4{
+    justify-content: space-between;
+}
+.pai5{
+    justify-content: left;
+    align-items: end;
+}
+.pai6{
+    justify-content: center;
+    align-items: center;
+}
+.pai7{
+    align-items: end;
+    justify-content: space-around;
+}
+.pai8{
+    justify-content: right;
+    flex-direction: row-reverse;
+}
+.pai9{
+    flex-direction: column;
+}
+.pai10{
+    justify-content: left;
+    flex-direction: row-reverse;
+}
+.pai11{
+    flex-direction: column;
+    align-items:start;
+    justify-content: end;
+}
+.pai12{
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: start;
+}
+.pai13{
+    flex-direction: row-reverse;
+    align-items: end;
+    justify-content:center ;
+}
+.pai14{
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+.pai14 .vermelho{
+    order: 0;
+}
+.pai14 .verde{
+    order: -1;
+}
+.pai14 .amarelo{
+    order: 1;
+}
+
+.pai16{
+    justify-content: center;
+}
+.pai16 .amarelo{
+    align-self: self-end;
+}
+.pai17{
+    justify-content: center;
+}
+.pai17 .amarelo{
+    order: 1;
+    align-self: flex-end;
+}
+
+.pai18{
+    display: grid;
+    justify-content: start;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.pai19{
+    display: grid;
+    justify-content: start;
+    grid-template-rows:auto auto auto auto auto ;
+    grid-column: 5 ;
+}
+.pai19 .amarelo{
+    grid-column: 1 / 2;
+}

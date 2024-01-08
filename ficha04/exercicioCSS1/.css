@@ -1,0 +1,248 @@
+* {
+    margin: 20px;
+    padding: 0;
+    }
+
+.container{
+    width: 1700px;
+    margin: 0 auto;
+    border-left: solid;
+    background-color: #F3F4F6;
+    border-color: #767E96;
+}
+
+.body{
+    display: flex;
+    justify-content: space-between 15px;
+    align-items: flex-start;
+}
+
+.botao-primario{
+    width: 175px;
+    height: 50px;
+    background-color: #242e4c;
+    color: white;
+    border: solid thick #242e4c;
+    border-radius: 0.5em
+}
+
+.botao-primario:hover{
+    box-shadow: 0px 10px 12px black;
+    cursor: pointer;
+}
+
+.botao-secundario:hover{
+    box-shadow: 0px 10px 12px black;
+    cursor: pointer;
+}
+
+.botao-secundario{
+    width: 175px;
+    height: 50px;
+    background-color: #242e4c;
+    color: white;
+    border: solid thick #242e4c;
+    border-radius: 0.5em
+}
+
+.botao-primario-hover{
+    width: 175px;
+    height: 50px;
+    background-color: #242e4c;
+    color: white;
+    box-shadow: 0px 10px 12px black;
+    border: solid thick #242e4c;
+    border-radius: 0.5em
+}
+
+.botao-secundario-hover{
+    width: 175px;
+    height: 50px;
+    background-color: #242e4c;
+    color: white;
+    box-shadow: 0px 10px 12px black;
+    border: solid thick #242e4c;
+    border-radius: 0.5em
+}
+
+.botao-cards{
+    width: 300px;
+    height: 200px;
+    background-color: transparent;
+    border: solid rgba(243, 239, 239, 0.699);
+}
+
+.botao-cards-hover{
+    width: 300px;
+    height: 200px;
+    background-color: transparent;
+    box-shadow: 0px 10px 12px black;
+    border: solid rgba(243, 239, 239, 0.699);
+}
+
+.botao-cards:hover{
+    box-shadow: 0px 10px 12px black;
+}
+
+.botao-cards:hover{
+    cursor: pointer;
+}
+
+.form{
+    margin: 30px;
+    width: 300px;
+    padding: 1px;
+}
+
+.label{
+    display: inline-block 2px;
+    width: 90px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1E1A50; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_area{
+    font: 1em sans-serif;
+    width: 400px;
+    height: 45px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 0.5em;
+    margin-bottom: 0px;
+}
+
+.text_area:focus{
+    border-color: #000;
+}
+
+.cor1{
+    width: 70px;
+    height: 70px;
+    background-color: #242e4c;
+    color: white;
+}
+
+.cor2{
+    width: 70px;
+    height: 70px;
+    background-color: #738bfd;
+    color: white;
+}
+
+.cor3{
+    width: 70px;
+    height: 70px;
+    background-color: #F55623;
+    color: white;
+}
+
+.cor4{
+    width: 70px;
+    height: 70px;
+    background-color: #767E96;
+    color: white;
+}
+
+.cor5{
+    width: 70px;
+    height: 70px;
+    background-color: #E9EAED;
+    color: black;
+}
+
+.cor6{
+    width: 70px;
+    height: 70px;
+    background-color: #F3F4F6;
+    color: black;
+}
+
+.fonts{
+    padding-bottom: 30px;
+}
+
+.page-title{
+    font-size: 28px;
+    color: #1E1A50;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.secondary-title{
+    font-size: 14px;
+    color: #1E1A50;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.tertiary-title{
+    font-size: 14px;
+    color: #1A2950;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.link{
+    font-size: 14px;
+    color: #767BFD;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: medium;
+}
+
+.input-placeholder{
+    font-size: 14px;
+    color: #767E96;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: medium;
+}
+
+.basic-paragraph{
+    font-size: 12px;
+    color: #1A2950;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: medium;
+}
+
+.board-summary-label{
+    font-size: 12px;
+    color: #767E96;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: medium;
+}
+
+.alert-message{
+    font-size: 12px;
+    color: #F55623;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: medium;
+}
+
+.icons{
+    padding-top: 30px;
+}
+
+.body2{
+    border-left: solid;
+    border-color: #767E96;
+}
+
+.input-placeholder{
+    font-size: 14px;
+    font-weight: medium;
+    color: #767E96;
+}
+
+.alert{
+    color: #f44336;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    width: 400px;
+}
+
+.closebtn{
+    margin-left: 15px;
+    float: right;
+}
