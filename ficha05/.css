@@ -1,0 +1,75 @@
+.body {
+    background: #f8f9fa;
+}
+
+.cor-principal {
+    color: blue;
+}
+
+.h1 {
+    font-weight: 900;
+    height: 36px;
+    margin: 0;
+    line-height: 0.8;
+}
+
+section .container .col-lg-12 {
+    background-color: white;
+}
+
+#carouselExampleIndicators {
+    color: black;
+    height: 210px;
+}
+
+#carouselExampleIndicators .carousel-indicators li {
+    background-color: lightblue;
+}
+
+#carouselExampleIndicators .carousel-indicators .active {
+    background-color: blue;
+}
+
+#carouselExampleControls {
+    display: flex;
+    justify-content: space-between;
+}
+
+#carouselExampleIndicators .carousel-control-prev-icon {
+    background-color: blue;
+}
+
+.carousel-control-next-icon {
+    background-color: blue;
+}
+
+.carousel-caption {
+    color: black;
+    top: 0;
+    padding: 60px 130px;
+}
+
+.home-food img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    color: white;
+}
+
+footer .container .col-lg-12 {
+    background-color: darkblue;
+    padding: 60px;
+}
+
+.social-media a {
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: grey;
+}
